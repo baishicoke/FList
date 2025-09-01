@@ -105,7 +105,7 @@ export default defineUserConfig({
       analysis: githubReposAnalysis({
         user: "baishicoke",
         repository: "random-image-api",
-        rootPath: "/", //根路径,挂载仓库的路径
+        // rootPath: "/", //根路径,挂载仓库的路径/
         // authorizationToken: string, //github token
         ref: "main"//string, //github分支
         // maxDeep: "number", //最大深度,默认10
