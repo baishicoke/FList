@@ -107,7 +107,7 @@ export default defineUserConfig({
         repository: "random-image-api",
         // rootPath: "/", //根路径,挂载仓库的路径/
         // authorizationToken: string, //github token
-        ref: "main"//string, //github分支
+        // ref: "main"//string, //github分支
         // maxDeep: "number", //最大深度,默认10
         // hideReadme: true, //隐藏README.MD文件
       }),
